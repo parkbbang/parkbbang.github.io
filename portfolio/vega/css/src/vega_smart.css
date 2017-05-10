@@ -1,0 +1,165 @@
+#wrap{width: auto; height: auto; margin: 0 auto; }
+    
+#headBox{width: 100%; height: 240px; background-color: #fff; }
+#headMenu{width: 100%; height: auto; margin: 0 auto;}
+    #unb{width: 100%; height: 34px; background-color: #111; margin: 0 auto;}
+      #unb>ul{width: 960px; height: auto; margin: 0 auto;}
+#unb>ul>li{padding-top: 12px; padding-bottom: 5px; color: #fff; letter-spacing: 1px; box-sizing: border-box;}
+				.menu{width: 100px; height: 30px; float: left; box-sizing: border-box; position: relative;  margin-left: 10px;}
+				.menu:hover .lang{border: 1px solid #fff; }
+.menu>a:hover{text-decoration: none;}
+.login>a:hover{text-decoration: none;}
+.signin>a:hover{text-decoration: none;}
+
+					.lang{margin-left: 13px;  padding: 10px 10px 3px 10px; box-sizing: border-box;  }
+					.lang_kind{position: absolute; z-index: 100; top: 34px; left: 14px; }
+						.lang_kind>li{width: 90px; height: 25px; background-color: #ccc; padding: 5px; box-sizing: border-box; text-transform: uppercase;}
+				.login{float: left; margin-left: 700px;}
+				.signin{float: left; margin-left: 20px;}
+#headLogo{width: 100%; height: auto; margin: 0 auto;}  
+
+		h1{width: 960px; height: auto; margin:0 auto; padding-top: 40px;}
+		h1>a{width: 101px; height: 100px; background-image: url(../../img/vega/main/logo.png); background-repeat: no-repeat; background-position:0 0; display: block; margin: auto;}
+    
+#gnbBox{width: 960px; height: auto; margin: 0 auto; position: relative;}
+		#gnb{width: 960px; height: auto; padding-top: 20px; box-sizing: border-box; position: absolute; margin: 0 auto; z-index: 100;}
+#gnb>ul{width: 960px; height: auto; margin: 0 auto;}
+#gnb>ul>li{width: 25%; height: auto; 
+	font-weight: bold; float: left; text-align: center;}
+#gnb>ul>li>a{font-size: 1.2em;}
+#gnb>ul>li>.step_02{margin-top: 1.4em; width: 100%; height: 156px;  background-color: rgba(250,250,250,0.9);}
+.step_02>li{width: 100%; height: auto; padding-top:0.5em;
+	padding-bottom: 0.5em; font-weight: normal;}
+
+
+/*---------------#headBox끝------------*/
+
+#addBanner{width: 960px; height: 250px; margin: 0 auto;}
+
+#addBanner>.add_p{width: 50%; height: 250px; float: left; background-color: #ccc; background-color: #171717;}
+.add_p>dl{margin: 0 auto; text-align: center; padding-top: 30px; box-sizing: border-box; position: relative;}
+.add_p>dl>dt{font-size: 2em; color: #fff;}
+.add_p>dl>dd{color: #fff;}
+.add_p>dl>dd{margin-top: 25px; font-size: 1.2em;}
+.add_p>dl>.bar_01{width: 30px; height: 2px; background-color: #fff; margin: 0 auto; margin-top: 25px;}
+.add_p>dl>.plus{width: 32px; height: 32px; background-color: #171717; border: 1px solid #fff; transform: rotate(45deg); margin: 0 auto; margin-top: 15px;}
+.plus{color:#fff; animation: plus 5s infinite;}
+
+@keyframes plus{ 
+			0%{transform: rotate(45deg)}
+		 20%{transform: rotate(45deg)}
+		 40%{transform: rotate(225deg)}
+		 60%{transform: rotate(225deg)}
+		 80%{transform: rotate(45deg)}
+	100%{transform: rotate(45deg)}}
+.fa{color: #fff; position: absolute; top: 212px; left: 233px; z-index: 100;}
+#addBanner>.add_i{width: 50%; height: 250px; background-image: url(../../img/vega/smartphone/smart01.jpg); background-repeat: no-repeat; background-position: center; float: left; background-size: 100% 100%;}
+/*-----------#addBanner끝-------------*/
+
+#addBox{width: 960px; height: auto; margin: 0 auto; background-color: #f4f3f2;}
+#addBox>.filter{width: 100%; height: 60px; background-color: #2e374a; padding-top: 30px; box-sizing: border-box;}
+#addBox>.filter>a>span{color: #fff;  font-size: 1.2em; float: right; margin-right: 20px;}
+#addBox>.telecom{width: 100%; height: 80px; background-color: #282828; overflow: hidden; position: relative;}
+.color_bar{width: 200px; height: 400px; background-color: #a92123; transform: rotate(50deg); margin-left: 380px; margin-top: -150px;}
+#addBox>.telecom>span{color: #fff; font-size: 2em; position: absolute; z-index: 100; top: 20px; left: 455px;}
+#showBox{width: 960px; height: 900px; overflow: hidden;}
+.product{width: 2880px; height: 900px;}
+.product_box{width: 960px; height: 900px; float: left;}
+.product_box_02{width: 960px; height: 900px; float: left;}
+.product_box_03{width: 960px; height: 900px; float: left;}
+.product a:hover {text-decoration: none;}
+.product_box>ul>li>a:hover .product_p_01{text-decoration: underline;}
+.product_box>ul{width: 100%; height: 900px;}
+.product_box>ul>li{ background-repeat: no-repeat; background-position: center;}
+.product_link{width: 100%; height: 50px; background-color: #363432; text-align: center; font-size: 1.2em; padding-top: 15px; box-sizing: border-box; font-weight: bold; color:#fff; margin-top: 40px;}
+.product_box>ul>li:nth-child(1){width: 33.3%; height: 50%; float: left; border-bottom: 3px solid #fff; box-sizing: border-box;}
+	.product_img_01{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/smart_01.png);background-repeat: no-repeat; background-position: center; background-size: 100%; }
+	.product_p_01{width: auto; height: auto; font-size: 1.5em; margin-left: 40px; margin-top: 60px}
+
+.product_box>ul>li:nth-child(2){width: 33.4%; height: 50%; float: left;
+border-bottom: 3px solid #fff; box-sizing: border-box; border-left: 3px solid #fff; border-right: 3px solid #fff;}
+	.product_img_02{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/smart_02.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+	.product_p_02{width: auto; height: auto; font-size: 1.5em; margin-left: 40px; margin-top: 60px}
+
+.product_box>ul>li:nth-child(3){width: 33.3%; height: 50%; float: left;
+border-bottom: 3px solid #fff; box-sizing: border-box;}
+	.product_img_03{width: 100px; height: 200px; margin: 0 auto; 
+margin-top: 40px; background-image: url(../../img/vega/smartphone/smart_03.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+	.product_p_03{width: auto; height: auto; font-size: 1.5em; margin-left: 40px; margin-top: 60px}
+
+.product_box>ul>li:nth-child(4){width: 33.3%; height: 50%; float: left;}
+	.product_img_04{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/smart_04.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+	.product_p_04{width: auto; height: auto; font-size: 1.5em; margin-left: 40px; margin-top: 60px}
+
+.product_box>ul>li:nth-child(5){width: 33.4%; height: 50%; float: left;
+border-bottom: 3px solid #fff; box-sizing: border-box; border-left: 3px solid #fff; border-right: 3px solid #fff;}
+	.product_img_05{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/smart_05.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+	.product_p_05{width: auto; height: auto; font-size: 1.5em; margin-left: 40px; margin-top: 60px}
+
+.product_box>ul>li:nth-child(6){width: 33.3%; height: 50%; float: left;}
+	.product_img_06{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/smart_06.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+	.product_p_06{width: auto; height: auto; font-size: 1.5em; margin-left: 40px; margin-top: 60px}
+
+.product_img_07{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/7.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+.product_img_08{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/8.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+.product_img_09{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/9.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+.product_img_10{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/10.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+.product_img_11{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/11.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+.product_img_12{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/12.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+.product_img_13{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/13.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+.product_img_14{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/14.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+.product_img_15{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/15.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+.product_img_16{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/16.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+.product_img_17{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/17.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+.product_img_18{width: 100px; height: 200px; margin: 0 auto; margin-top: 40px; background-image: url(../../img/vega/smartphone/18.png);background-repeat: no-repeat; background-position: center; background-size: 100%;}
+
+
+
+
+#select{width: 100%; height: 60px; background-color: #2e374a; padding-top: 10px; box-sizing: border-box;}
+#select>.btn{width: 190px; height: 40px; margin: auto;}
+.btn>li{width: 50px; height: 40px; font-size: 2em; float: left; text-align: center; color: #fff;}
+.btn_01{margin-right: 20px;}
+.btn_02{margin-right: 20px;}
+.btn_03{}
+
+
+
+/*-------------#addBox끝--------------*/
+
+
+
+
+/*--------------#content--------------*/
+
+
+
+#footBox{width: 100%; height: 350px; background-color: #171717; padding-top: 30px; padding-left: 100px; box-sizing: border-box;}
+#footBase{width: 960px; height: auto; margin: auto;}
+#siteMap{width: 650px; height: 150px; }
+#siteMap>dl{text-transform: capitalize; float: left;}
+#siteMap dt{color:#fff; font-weight: bold; letter-spacing: 1px;}
+#siteMap dd{color:#fff; letter-spacing: 1px;}
+#siteMap>.language{margin-right: 80px;}
+#siteMap>.language>dt{}
+#siteMap>.language>dd{margin-top: 7px; color:#999;}
+#siteMap>.sub_gnb{margin-right: 120px;}
+#siteMap>.sub_gnb>dt{}
+#siteMap>.sub_gnb>dd{margin-top: 7px; color: #999;}
+#siteMap>.news_letter{width: 250px;}
+#siteMap>.news_letter>dt{}
+#siteMap>.news_letter>dd{margin-top: 10px; color: #999;}
+#siteMap>.news_letter #mail{text-indent: 10px; height: 25px; background-color: #282828; border: 1px solid #666; }
+#siteMap>.news_letter input{float: left;margin-right: 10px; height: 25px; border-radius: 3px; cursor: pointer;}
+#footBox address{width: 780px; height: auto;  float: left; margin-top: 20px; padding-top: 30px; border-top: 1px solid #777;}    
+#footBox address>p{color: #fff; float: left;margin-bottom: 5px; word-spacing: 3px; }
+#footBox address>p>span{color: #777;}
+#footBox address>.copy{padding-top: 30px; color: #fff; float: right;}
+
+
+
+
+
+
+
+
